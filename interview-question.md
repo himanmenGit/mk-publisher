@@ -150,3 +150,136 @@
 53. 아래 두 구문은 동일하게 작동한다. ( O | X )
 1) var blue; var hole;
 2) var blue, hole; 
+
+## 웹퍼블리싱 인터뷰 예상질문 3. (프론트 엔드)
+
+- [출처](https://zinee-world.tistory.com/119)
+- 작성일 : 2015.02.23
+
+### 일반적인 질문:
+
+1. 자주 보는 Blog가 있습니까?
+2. 버전 관리 시스템은 어떤 것들을 사용해보셨습니까?
+3. 선호하는 개발 환경은 무엇입니까? (운영체제, 에디터, 브라우저, 도구 등등)
+4. 당신이 웹 페이지를 만들 때의 과정을 설명 해주실 수 있을까요?
+5. "시멘틱 HTML(Semantic HTML)"이 무엇을 뜻하는지 설명해주세요.
+6. "최소화(minification)"가 무엇을 하는 것입니까?
+7. 만약에 디자인을 표현하기 위해 8개의 다른 Stylesheet를 가지고 있다면, 사이트에서는 어떻게 통합하실 건가요?
+8. 올해 당신이 익히고 싶은 기술이 있다면, 그것은 무엇입니까?
+9. 페이지 로딩 시간을 줄이는 3가지 방법은?
+10. 표준의 중요함을 설명하세요.
+
+
+### HTML에 관련된 질문들:
+[참고] http://insanehong.kr/post/front-end-developer-interview-html/
+
+1. doctype이 무엇을 하는 것이고, 몇 번 지정할 수 있나요?
+2. 표준모드(standards mode)와 쿽스모드(quirks mode)의 다른 점은 무엇인가요?
+3. XHTML을 이용한 페이지의 한계점은 무엇이 있나요?
+   * application/xhtml+xml으로 지정한 페이지에 어떠한 문제가 있나요?
+4. 다국어가 포함된 페이지는 어떤 방식으로 제공하나요?
+5. HTML5에서 XHTML문법을 사용할 수 있나요? HTML5에서 XML을 어떻게 사용하나요?
+6. data-속성은 무엇을 하는 것인가요?
+7. HTML4에서 콘텐츠 모델(content models)은 무엇이며, HTML5의 그것과 다른 점은 무엇인가요?
+8. HTML5를 오픈웹플랫폼(open web platform)으로 생각해본다면, 어떤 것들로 구성돼 있을까요?
+9. 쿠키(Cookies)와 세션저장소(sessionStorage)와 로컬저장소(localStorage)의 차이점을 설명해주세요.
+
+
+### Javascript에 관련된 질문들:
+[참고] http://insanehong.kr/post/front-end-developer-interview-javascript/
+
+1. 사용해 본 Javascript 라이브러리들을 말씀해주세요.
+2. Java와 Javascript의 다른 점은 무엇인가요?
+3. undefined와 undeclared 변수는 무엇인가요?
+4. 클로져(Closure)는 무엇이며, 어떻게/왜 사용하는지 설명해주세요.   
+5. 익명함수(anonymous functions)는 주로 어떤 상황에서 사용하나요?
+6. 당신의 코드를 어떻게 구성하는지?(모듈 패턴, Class기반 상속?)
+7. 호스트 객체(Host Objects)와 네이티브 객체(Native Objects)의 차이점은 무엇인가요?
+8. 다음 코드의 차이점은 무엇인가요?
+    * function Person(){} var person = Person() var person = new Person()
+
+9. .call과 .apply의 차이점은 무엇인가요?
+10. Function.prototype.bind을 설명 하시오
+11. 코드 최적화를 하는 시점은 언제인가요?
+12. Javascript에서 어떻게 상속을 하는지 설명할 수 있나요?
+13. AJAX에 관해 가능한 자세히 설명하세요.
+14. JSONP가 어떻게 동작 되는지 설명하세요.(그리고,실제 AJAX와 어떻게 다른지 설명하세요.)
+15. 기존에 Javascript 템플릿을 사용한 적이 있나요? 만약에 있다면, 어떠한 방식으로 사용했는지 말씀해주세요.
+16. "호이스팅(Hoisting)"에 대해서 설명 하시오.
+17. FOUC가 무엇이며 FOUC를 어떻게 방지하나요?
+18. 이벤트 버블링(Event Bubbling)에 대해서 설명하세요.
+19. "속성(Attribute)"와 "요소(property)"의 차이가 무엇인가요?
+20. Javascript 객체를 확장하는 것이 좋지 않은 이유는 무엇인가요?
+21. Document Load 이벤트와 Ready 이벤트의 차이가 무엇인가요?
+22. ==와 ===의 차이점은 무엇인가요?
+23. 브라우저의 URL에서 파라메터를 얻을 수 있는 방법에 대해서 설명하세요.
+24. Javascript의 "동일출처정책(the same-origin policy)"에 대해서 설명하세요.
+25. 이벤트 딜리게이션(Event Delegation)에 대해서 설명하세요.
+26. Javascript의 상속패턴(inheritance patterns)에 대해서 설명하세요.
+27. 다음 코드를 동작하게 만드세요. [1,2,3,4,5].duplicator(); // [1,2,3,4,5,1,2,3,4,5]
+28. Javascript에서 메모이제이션(memoization, 중복 계산 방지)에 대한 전략을 설명해주세요.
+29. 삼항식(Ternary statement)을 사용하는 이유는 무엇이고, 그것을 표현하기 위한 연산자 단어는 무엇인가요?
+30. arity는 어떠한 함수인가요?
+
+
+### Javascript 코드 예제:
+
+```
+>~~3.14
+문제: 위 상황의 결과 값은?
+답: 3
+```
+
+```
+"i'm a lasagna hog".split("").reverse().join("");
+문제: 위 상황의 결과 값은?
+답:"goh angasal a m'i"
+```
+
+```
+( window.foo || ( window.foo = "bar" ) );
+문제: window.foo의 값은 무엇인가요?
+답: "bar"
+```
+
+```
+처음에 window.foo는 false, undefined 혹은 0등의 값을 가지고 있다.
+var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
+문제: 어떠한 두 가지의 알럿이 나올까요?
+답: "Hello World" & ReferenceError: bar is not defined
+```
+
+
+### jQuery에 연관된 질문들:
+
+1. "체이닝(Chaining)"에 대해서 설명 하세요.
+2. .end()는 무엇을 하는 것입니까?
+3. 이벤트 핸들러 선언 시, 언제 그리고 왜 namespace를 부여하는지를 설명해주세요.
+4. 이펙트 큐(queue)라는 것은 무엇인가요?
+5. .get(),[] 그리고 .eq()의 차이점이 무엇인가요?
+6. .bind(),.live()그리고 .delegate()의 차이점이 무엇인가요?
+7. $과 $.fn 차이점이 무엇인지 설명 해주시오. 혹은, $.fn가 무엇인지 설명해주세요.
+8. 다음 Selector를 최적화 해주세요.: $(".foo div#bar:eq(0)")
+
+
+### CSS 관련 질문들:
+
+1. "reset" CSS가 무엇인지, 어떻게 유용한지 설명 해주세요.
+2. Floats가 어떻게 동작하는지 설명해주세요.
+3. 클리어링(Clearing) 기술에는 어떤 것들이 있으며, 어떠한 경우에 어떻게 사용하는 것이 적절한지 설명하세요.
+4. CSS 스프라이트(CSS Sprites)를 설명하고, 페이지나 사이트를 어떻게 향상시키는지 설명하시오.
+5. IE box model과 W3C box model의 차이점을 설명하시오.
+6. Image Replacement를 사용해야 할 때, 선호하는 기술과 언제 사용하는지를 설명 해주세요.
+7. CSS 요소핵(CSS property hacks)을 조건부적으로 .css파일안에 넣으시나요 혹은 다른 방식이 있나요?
+8. 기능이 제약된 브라우저를 위해서 어떤 방식으로 페이지를 만드나요?
+   * 어떠한 기술과 절차를 거치는지 설명하시오.
+9. 컨텐츠를 안보이게 하는 기술들의 차이점을 설명하시오.(그리고 스크린 리더(Screen readers)에서 접근이 가능한 방법은?)
+10. 그리드 시스템(Grid system)을 사용한 적이 있나요? 있다면 어떠한 것을 선호하나요?
+11. 미디어 쿼리(media queries)를 사용한 적이 있나요? 혹은 모바일에 맞는 layout과 CSS를 사용한 적이 있나요?
+12. SVG를 스타일링 하기 위한 편한 방법이 있나요?
+13. 인쇄를 하기 위해 웹페이지를 어떻게 최적화 하나요?
+14. 효율적인 CSS를 작성하기 위한 "비법(gotchas)"은 어떤 게 있나요?
+15. CSS 전처리(CSS preprocessors)를 사용해보셨나요?
+   * 그렇다면, 사용 경험에 기반해 좋았던 점과 나빴던 점을 설명해주세요.
+16. 페이지에서 표준 폰트가 아닌 폰트 디자인을 사용할 때 어떤 방식으로 처리하시나요?(웹폰트를 제외하고)
+17. CSS Selector가 어떠한 원리로 동작하는지 설명하시오.
